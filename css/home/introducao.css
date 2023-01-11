@@ -35,19 +35,13 @@
 
 .introducao h1{
     margin-bottom: 32px;
-    font-size: 64px;
-    line-height: 1.125;
-    font-weight: 600;
-    font-family: 'Poppins';
+
 }
 
 .introducao p{
-    margin-bottom: 20px;
-    line-height: 1.5;
-    font-size: 24px;
     color: #b2b2b2;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    margin-bottom: 20px;
+
 }
 
 .introducao h1 span{
