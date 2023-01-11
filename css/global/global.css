@@ -9,7 +9,7 @@ body {
 h1,
 ul,
 p,
-h3 {
+h3 ,blockquote{
     margin: 0px;
 }
 

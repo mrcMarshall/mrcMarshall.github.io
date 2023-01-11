@@ -1,11 +1,11 @@
 .container{
-    margin-bottom: 40px;
-    padding-left: 20px;
     box-sizing: border-box;
-    padding-right: 20px;
     max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .button{
     padding: 16px 32px;

@@ -8,7 +8,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px 40px;
-
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;;
 }
 
 .introducao p,
@@ -25,6 +30,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 4px;
+    width: 100%;
 }
 
 
@@ -57,7 +63,7 @@
     .introducao-bg{
         background-color: #111111;
         padding-top: 40px;
-        box-shadow: inset 0 -60px #ffff;
+       
     }
     .introducao{
         grid-template-columns: 1fr;

@@ -1,0 +1,41 @@
+.parceiros{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.parceiros h2{
+    margin-bottom: 60px;
+}
+
+.parceiros ul{
+    padding: 0 20px;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+.parceiros li{
+    display: flex;
+    padding: 32px;
+align-items: center;
+justify-content: center;
+
+}
+
+.parceiros img{
+    margin: 0 auto;
+}
+
+@media (max-width: 800px){
+    .parceiros{
+        padding-bottom: 60px;
+    }
+    .parceiros h2{
+        margin-bottom: 20px;
+    }
+    .parceiros  ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
